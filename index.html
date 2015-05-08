@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="node_modules/jplayer/dist/skin/ghostly.swim2/css/jplayer.ghostly.swim2.css">
+    <script src="node_modules/jplayer/dist/jplayer/jquery.jplayer.min.js"></script>
+    <script src="node_modules/jplayer/dist/addon/jplayer.playlist.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div id="fb-root"></div>
+    <script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=ADULT_SWIM_APP_ID";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9">
+                <img src="images/title.png" width="90%">
+            </div>
+            <div class="col-lg-3">
+                <span class="twitter"><a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></span>
+                <span class="facebook"><div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div></span>
+            </div>
+        </div>
+        <!-- end row -->
+        <div class="row">
+            <div class="col-lg-4 player">
+                <div id="jquery_jplayer_1" class="jp-jplayer" style="width: 0px; height: 0px;"><img id="jp_poster_0" style="width: 0px; height: 0px; display: none;">
+                    <audio id="jp_audio_0" preload="metadata" src="http://www.jplayer.org/audio/ogg/TSP-01-Cro_magnon_man.ogg" title="Cro Magnon Man"></audio>
+                </div>
+                <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+                    <div class="jp-type-playlist">
+                        <div class="current-track">Babe Rainbow - Don't Tell Me I'm Wrong</div>
+                        <div class="jp-gui jp-interface">
+                            <div class="jp-volume-controls">
+                                <button class="jp-mute" role="button" tabindex="0">mute</button>
+                                <!-- <button class="jp-volume-max" role="button" tabindex="0">max volume</button> -->
+                                <!--                                 <div class="jp-volume-bar">
+                                    <div class="jp-volume-bar-value" style="width: 80%;"></div>
+                                </div> -->
+                            </div>
+                            <div class="jp-controls-holder">
+                                <div class="jp-controls">
+                                    <button class="jp-previous" role="button" tabindex="0">previous</button>
+                                    <button class="jp-play" role="button" tabindex="0">play</button>
+                                    <button class="jp-next" role="button" tabindex="0">next</button>
+                                </div>
+                                <!-- <div class="jp-progress">
+                                    <div class="jp-seek-bar" style="width: 100%;">
+                                        <div class="jp-play-bar" style="width: 0%;"></div>
+                                    </div>
+                                </div> -->
+                                <!--                                 <div class="jp-current-time" role="timer" aria-label="time">00:00</div>
+                                <div class="jp-duration" role="timer" aria-label="duration">04:27</div> -->
+                                <!--                                 <div class="jp-toggles">
+                                    <button class="jp-repeat" role="button" tabindex="0">repeat</button>
+                                    <button class="jp-shuffle" role="button" tabindex="0">shuffle</button>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="jp-playlist">
+                            <ul style="display: block;">
+                                <li class="jp-playlist-current">
+                                    <div><a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item" tabindex="0">01. Pascaal - Holo</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item" tabindex="0">02. Shigeto - Tide Pools</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item" tabindex="0">03. Anenon - Grapevine</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item" tabindex="0">04. Heathered Pearls - Supra</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-itemjp-playlist-current" tabindex="0">05. Babe Rainbow - Don't Tell Me I'm Wrong</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item" tabindex="0">06. Dauwd - Kolido</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item" tabindex="0">07. Patricia - Spotting</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item" tabindex="0">08. Lord RAJA - Spilt Out In Cursive </a></div>
+                                </li>
+                                <li>
+                                    <div><a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item" tabindex="0">09. CFCF - Oil</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item" tabindex="0">10. Feral - Mirror</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item" tabindex="0">11. Mary Lattimore & Jeff Zeigler - I Only Have Eyes for You</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item" tabindex="0">12. AceMo - Futurism</a></div>
+                                </li>
+                                <li>
+                                    <div><a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item" tabindex="0">13. Nautiluss - Lonely Planet</a></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="jp-no-solution" style="display: none;">
+                            <span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row legal">
+            <div class="col-lg-3">
+                <img class="legal" src="images/legal-williams-st.png">
+                <img class="legal" src="images/legal-ghost.png">
+            </div>
+        </div>
+        <!-- end row -->
+        <!-- end row -->
+    </div>
+</body>
+
+</html>
